@@ -1,4 +1,6 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   padding: 0;
   margin: 0;
@@ -12,15 +14,159 @@ a {
 }
 
 * {
-  box-sizing: border-box;
+
+}
+.headingbody{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(34, 34, 189);
+}
+.imagehead img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+  width:600px;
+  height:100px;
+  z-index: -1;
+}
+.mypokemonsingle{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 10px;
+
+}
+.background{
+  background-image: url("../public/Background.png");
+  background-repeat: no-repeat;
+  height: 850px;
+}
+.myparagraph{
+ margin-top: 200px;
+}
+.anik{
+  display: flex;
+  
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.rightone{
+  display: flex;
 }
+.rightone p{
+
+  text-align: justify;
+}
+
+.rightone img{
+   height: 100px; 
+  width: 350px; 
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.righthand p{
+  text-align: justify;
+  margin-left: 10px;
+}
+
+.lefthand{
+  width: 50%;
+}
+.righthand{
+  width: 50%;
+}
+.firstDiv{
+  display: flex;
+  width: 95%;
+  position: relative;
+  
+}
+
+.firstDiv img{
+  height: 100px;
+  margin-top: 18px;
+  
+}
+.secondDiv{
+  display: flex;
+  width: 70%;
+}
+.secondDiv img{
+  height: 100px; 
+}
+.thirdDiv{
+  display: flex;
+  width: 95%;
+}
+.thirdDiv p{
+margin-top: -10px;
+}
+
+.thirdDiv img{
+  height: 100px;
+  margin-top: -90px;
+}
+
+ .fourDiv{
+   width: 95%; 
+} 
+.fourDiv p{
+ text-align: justify;
+}
+
+.details-two{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .my-btn{
+  background-color: #a0ad2c;
+  border: 1px solid blue;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 550px;
+ }
+ .card-box{
+  width: 500px;
+  border: 3px solid red;
+  padding: 100px;
+  margin: 20px;
+  background-color: rgb(226, 217, 217);
+  clip-path: polygon(0% 0%, 80% 0%, 100% 0%, 100% 80%, 80% 100%, 0% 100%, 0% 80%, 0% 0%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ }
+  
+ .card-box h1{
+  font-size: 20px;
+  font-weight: bold;
+ }
+
+ .myparagraphk h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: blue;
+ }
+
+ .myparagraphk p{
+  font-size: 20px;
+  margin-left: 10px;
+
+ }
+ .card-box h2{
+  font-size: 20px;
+  font-weight: bold;
+ }
+ .myFlex{
+  display: flex;
+  color: blue;
+  font-size: 25px;
+  margin-left: 10px;
+ }

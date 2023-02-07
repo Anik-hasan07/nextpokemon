@@ -1,0 +1,17 @@
+
+.mypokemon{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background-color: rgb(226, 217, 217);
+    width: 230px;
+    height: 300px;
+   
+    clip-path: polygon(0% 0%, 80% 0%, 100% 0%, 100% 80%, 80% 100%, 0% 100%, 0% 80%, 0% 0%);
+}
+
+.mypokemon Img{
+    background-color: rgb(187, 168, 168);
+    width: 100%;
+    
+}
